@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    /* background-color: darkgray; */
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(16,6,28,1) 0%, rgba(212,212,212,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.pokemon{
+    /* background-color: darkgrey; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,145,172,1) 0%, rgba(212,212,212,1) 100%, rgba(0,212,255,1) 100%);
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height:380px;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    /* margin: 25%;
+    padding: 5%; */
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: rgba(10, 83, 192, 0.56) 0px 22px 70px 4px;
+}
+.image{
+    width:200px;
+}
+
